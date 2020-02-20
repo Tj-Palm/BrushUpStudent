@@ -8,6 +8,9 @@ namespace BrushUpStudent
     {
         private int _salary;
 
+        /// <summary>
+        /// Get the salary of a teacher, which cannot be 0.
+        /// </summary>
         public int Salary
         {
             get => _salary;

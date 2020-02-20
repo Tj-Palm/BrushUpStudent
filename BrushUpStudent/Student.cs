@@ -6,6 +6,9 @@ namespace BrushUpStudent
     {
         private int _semester;
 
+        /// <summary>
+        /// Gets the semester of a student, which should be between 1-8.
+        /// </summary>
         public int Semester
         {
             get => _semester;

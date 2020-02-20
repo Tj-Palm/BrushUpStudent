@@ -10,6 +10,9 @@ namespace BrushUpStudent
         private string _adress;
         private Gender _gender;
 
+        /// <summary>
+        /// Gets name of person, which should be more than 2 characters
+        /// </summary>
         public string Name
         {
             get => _name;
@@ -20,11 +23,18 @@ namespace BrushUpStudent
             }
         }
 
+        /// <summary>
+        /// Gets Adress of person, which can't be null.
+        /// </summary>
         public string Adress
         {
             get => _adress;
             set { _adress = value ?? throw new ArgumentNullException("Adress", "Adress should not be null"); }
         }
+
+        /// <summary>
+        /// Gets the Gender of a person from the enum Gender class.
+        /// </summary>
         public Gender Gender
         {
             get => _gender;
