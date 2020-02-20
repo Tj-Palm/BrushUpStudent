@@ -5,7 +5,7 @@ using BrushUpStudent;
 namespace UnitTestClassLibrary
 {
     [TestClass]
-    public class UnitTest1
+    public class UniteTestPersons
     {
         private Teacher _teacher;
         private Student _student;
