@@ -18,7 +18,7 @@ namespace BrushUpStudent
             get => _name;
             set
             {
-                if (value.Length <= 2) throw new ArgumentOutOfRangeException();
+                if (value.Length <= 2) throw new ArgumentOutOfRangeException("Name", "Name should be more than 2 character");
                 _name = value;
             }
         }
